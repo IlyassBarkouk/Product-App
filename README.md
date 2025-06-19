@@ -15,17 +15,17 @@ Le backend est déjà disponible sur GitHub et fournit les données via l'endpoi
 ## 📷 Captures d'écran
 
 ### ✅ Exécution réussie du backend
-![Backend Running]((./assets/images/BEsuccess.png))
+![Backend Running](/assets/images/BEsuccess.png)
 
 ---
 
 ### ✅ Résultat (`http://localhost:4200`)
-![Result]((./assets/images/resultatGet.png))
+![Result](/assets/images/resultatGet.png)
 
 ---
 
 ### 📊 Résultat dans le navigateur (`http://localhost:4200`)
-![Produits Affichés]((./assets/images/Frontsuccess.png))
+![Produits Affichés](/assets/images/Frontsuccess.png)
 
 
 ---
