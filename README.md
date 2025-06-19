@@ -1,59 +1,73 @@
-# Products
+# 📦 Product App (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+Une application Angular simple qui permet d'afficher la liste des produits récupérés depuis un backend REST.  
+Le backend est déjà disponible sur GitHub et fournit les données via l'endpoint `http://localhost:8080/produits`.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📌 Backend utilisé
 
-```bash
-ng serve
-```
+👉 Backend récupéré depuis ce dépôt :  
+[BackEnd](https://github.com/mohamedYoussfi/products-service)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 📷 Captures d'écran
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### ✅ Exécution réussie du backend
+![Backend Running]((./assets/images/BEsuccess.png))
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### ✅ Résultat (`http://localhost:4200`)
+![Result]((./assets/images/resultatGet.png))
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+### 📊 Résultat dans le navigateur (`http://localhost:4200`)
+![Produits Affichés]((./assets/images/Frontsuccess.png))
 
-To build the project run:
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🚀 Installation & Exécution
 
-## Running unit tests
+### 📥 Prérequis :
+- Node.js installé
+- Angular CLI installé (`npm install -g @angular/cli`)
+- Backend cloné et démarré
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+### 📦 Installer les dépendances du frontend
 
-## Running end-to-end tests
+      npm install
+### ▶️ Démarrer l'application Angular
 
-For end-to-end (e2e) testing, run:
+    ng serve
+    
+### 👉 Puis ouvrir http://localhost:4200
 
-```bash
-ng e2e
-```
+### 🛠️ Démarrer le Backend
+Cloner le backend depuis le dépôt :
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+    git clone https://github.com/mohamedYoussfi/products-service
+    cd products-service
+    
+Puis démarrer le backend (selon s'il est en Spring Boot par exemple)  
+    
+    ./mvnw spring-boot:run
+## 📡 Endpoint utilisé
+Le backend expose les produits via :
 
-## Additional Resources
+    GET http://localhost:8080/produits
+## 📜 Fonctionnalités
+Afficher la liste des produits
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Récupération des données depuis un backend REST
+
+Affichage sous forme de tableau
+
+## 📌 Auteur
+Ilyass Barkouk
+
